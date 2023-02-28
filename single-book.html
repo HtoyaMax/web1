@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Book</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet/less" href="css/less.less" />
+
+    <link rel="stylesheet" href="style/style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="header-bg">
+      <div class="header-container">
+        <a href="index.html"><img src="img/logo.png" alt="" class="logo" /></a>
+
+        <div id="navbar">
+          <ul>
+            <li>
+              <a id="rotate" class="main"
+                >академия<i class="bx bx-chevron-down down"></i
+              ></a>
+              <ul class="sub-menu">
+                <li><a href="about-academy.html">ОБ АКАДЕМИИ</a></li>
+                <li><a href="about-igor.html">ИГОРЬ ПОГОДИН</a></li>
+                <li><a href="pro-info.html">ИНСТИТУТ ГЕШТАЛЬТА</a></li>
+                <li><a href="team.html">КОМАНДА</a></li>
+                <li><a href="event.html">МЕРОПРИЯТИЯ</a></li>
+                <li><a href="programs.html">ПАМЯТКИ СТУДЕНТАМ</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="rotate" class="main"
+                >программы<i class="bx bx-chevron-down down"></i
+              ></a>
+              <ul class="sub-menu">
+                <li><a href="#">ОБУЧЕНИЕ ЛЮДЕЙ И ПСИХОЛОГОВ</a></li>
+                <li><a href="#">Гештальт-консультант</a></li>
+                <li><a href="#">Вводные курсы</a></li>
+              </ul>
+            </li>
+            <li class="main"><a href="event.html">мероприятия</a></li>
+            <li class="main"><a href="books.html">книги</a></li>
+            <li id="bor" class="main"><a href="blog.html">блог</a></li>
+
+            <div id="mobile">
+              <div class="number">
+                <p>+380 94 828 80 67</p>
+                <p>+7 812 309 54 47</p>
+              </div>
+
+              <div class="email"><p>info@pogodin.academy</p></div>
+
+              <div class="icons">
+                <a href="#"><i class="bx bxl-instagram icon"></i></a>
+                <a href="#"> <i class="bx bxl-youtube icon"></i></a>
+                <a href="#"> <i class="bx bxl-facebook icon"></i></a>
+              </div>
+            </div>
+
+            <div class="language">
+              <div class="language-selected">UA</div>
+              <ul>
+                <li><a href="#" class="ua">ua</a></li>
+                <li><a href="#" class="ru">ru</a></li>
+                <li><a href="#" class="en">en</a></li>
+              </ul>
+            </div>
+
+            <div id="close"><i class="bx bx-x"></i></div>
+          </ul>
+        </div>
+
+        <div class="language">
+          <div class="language-selected">UA</div>
+          <ul>
+            <li><a href="#" class="ua">ua</a></li>
+            <li><a href="#" class="ru">ru</a></li>
+            <li><a href="#" class="en">en</a></li>
+          </ul>
+        </div>
+
+        <div class="number">
+          <p>+380 94 828 80 67</p>
+          <p>+7 812 309 54 47</p>
+        </div>
+
+        <div class="icons">
+          <a href="#"><i class="bx bxl-instagram icon"></i></a>
+          <a href="#"> <i class="bx bxl-youtube icon"></i></a>
+          <a href="#"> <i class="bx bxl-facebook icon"></i></a>
+        </div>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </section>
+    <!-- Header end-->
+
+    <!-- breadcrumbs -->
+    <section id="breadcrumbs">
+      <ul class="breadcrumbs">
+        <li><a class="way" href="index.html">Главная</a></li>
+        <li>
+          <a class="way" href="team.html">Книги</a>
+        </li>
+        <li>
+          <a class="activeted" href="#">Как устроена реальность?</a>
+        </li>
+      </ul>
+    </section>
+    <!-- breadcrumbs-->
+
+    <!-- Header info -->
+    <section id="header-info">
+      <div class="header-title">
+        <div class="header-book-img">
+          <h2 class="header-mob">Как устроена реальность?</h2>
+          <img src="img/book/book-1.png" alt="" />
+        </div>
+        <div class="header-sing-book">
+          <div>
+            <h2>Как устроена <span>реальность?</span></h2>
+          </div>
+          <p class="info">
+            Мы привыкли рассматривать реальность как нечто, непосредственно
+            переживаемое нами. Все, что выходит за пределы опыта органов чувств,
+            мы автоматически выносим в сферу мистики и эзотерики. Его как будто
+            бы не существует. А оно существует, еще как существует! В книге
+            описывается реальность как состоящая из двух слоев – социального и
+            витального. И если на социальном уровне разворачиваются одни
+            процессы, то на витальном – принципиально иные. Не понимая принципов
+            устройства витального уровня реальности, можно даже не пытаться
+            претендовать на значительные изменения в жизни. Этот тезис имеет
+            далеко идущие последствия для множества аспектов жизни и
+            психотерапии: созависимого и виктимного поведения, природы личных
+            границ, социальной жизни и политики, присутствия, любви, доверия,
+            принятия, любых наших чувств и реакций тела, включая болезни,
+            старение и смерть. В общем, если хотите с головой занырнуть в зону
+            трансцендентного, эта книга для вас
+          </p>
+          <hr />
+          <div class="info">
+            <p class="price">11.15$</p>
+            <button class="normal">ОФОРМИТЬ ЗАКАЗ</button>
+            <a href="" class="document-link"
+              >Книга в электронном виде, <br />
+              в формате PDF</a
+            >
+          </div>
+        </div>
+        <div class="info-mob">
+          <hr />
+          <p class="info">
+            Мы привыкли рассматривать реальность как нечто, непосредственно
+            переживаемое нами. Все, что выходит за пределы опыта органов чувств,
+            мы автоматически выносим в сферу мистики и эзотерики. Его как будто
+            бы не существует. А оно существует, еще как существует! В книге
+            описывается реальность как состоящая из двух слоев – социального и
+            витального. И если на социальном уровне разворачиваются одни
+            процессы, то на витальном – принципиально иные. Не понимая принципов
+            устройства витального уровня реальности, можно даже не пытаться
+            претендовать на значительные изменения в жизни. Этот тезис имеет
+            далеко идущие последствия для множества аспектов жизни и
+            психотерапии: созависимого и виктимного поведения, природы личных
+            границ, социальной жизни и политики, присутствия, любви, доверия,
+            принятия, любых наших чувств и реакций тела, включая болезни,
+            старение и смерть. В общем, если хотите с головой занырнуть в зону
+            трансцендентного, эта книга для вас
+          </p>
+        </div>
+        <div class="info-mob-2">
+          <p class="info">
+            Мы привыкли рассматривать реальность как нечто, непосредственно
+            переживаемое нами. Все, что выходит за пределы опыта органов чувств,
+            мы автоматически выносим в сферу мистики и эзотерики. Его как будто
+            бы не существует. А оно существует, еще как существует! В книге
+            описывается реальность как состоящая из двух слоев – социального и
+            витального. И если на социальном уровне разворачиваются одни
+            процессы, то на витальном – принципиально иные. Не понимая принципов
+            устройства витального уровня реальности, можно даже не пытаться
+            претендовать на значительные изменения в жизни. Этот тезис имеет
+            далеко идущие последствия для множества аспектов жизни и
+            психотерапии: созависимого и виктимного поведения, природы личных
+            границ, социальной жизни и политики, присутствия, любви, доверия,
+            принятия, любых наших чувств и реакций тела, включая болезни,
+            старение и смерть. В общем, если хотите с головой занырнуть в зону
+            трансцендентного, эта книга для вас
+          </p>
+          <div class="info">
+            <hr />
+            <p class="price">11.15$</p>
+            <button class="normal">ОФОРМИТЬ ЗАКАЗ</button>
+            <a href="" class="document-link"
+              >Книга в электронном виде, <br />
+              в формате PDF</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header info -->
+
+    <!-- section home book -->
+    <section id="home-book">
+      <div class="container">
+        <div class="title-wrapper">
+          <h2>Книги</h2>
+          <div class="arrows">
+            <button class="prev slick-arrow"></button>
+            <button class="next slick-arrow"></button>
+          </div>
+        </div>
+
+        <div class="book-wrapper book-slider">
+          <div class="item">
+            <div class="inner">
+              <div class="thumb">
+                <img src="img/book/book-1.png" alt="" />
+              </div>
+
+              <h5>заголовок статьи</h5>
+              <hr />
+
+              <div class="info">
+                <p class="price">11.15$</p>
+                <a class="link" href="#">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="inner">
+              <div class="thumb">
+                <img src="img/book/book-2.png" alt="" />
+              </div>
+
+              <h5>заголовок статьи</h5>
+              <hr />
+
+              <div class="info">
+                <p class="price">11.15$</p>
+                <a class="link" href="#">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="inner">
+              <div class="thumb">
+                <img src="img/book/book-3.png" alt="" />
+              </div>
+
+              <h5>заголовок статьи</h5>
+              <hr />
+
+              <div class="info">
+                <p class="price">11.15$</p>
+                <a class="link" href="#">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="inner">
+              <div class="thumb">
+                <img src="img/book/book-4.png" alt="" />
+              </div>
+
+              <h5>заголовок статьи</h5>
+              <hr />
+
+              <div class="info">
+                <p class="price">11.15$</p>
+                <a class="link" href="#">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section home book -->
+
+    <!-- form section -->
+    <section id="form">
+      <div class="container">
+        <div class="info">
+          <h3>Остались вопросы? Напишите нам!</h3>
+          <p>
+            Оставьте заявку, и наши менеджеры с любовью расскажут о нашей
+            программе
+          </p>
+        </div>
+        <div class="form-input">
+          <form action="">
+            <p>
+              <label for="">Имя</label>
+              <input type="text" placeholder="Введите имя" />
+            </p>
+            <p>
+              <label for="">Номер телефона</label>
+              <input type="text" placeholder="Введите номер телефона" />
+            </p>
+            <p>
+              <label for="">E-mail</label>
+              <input type="text" placeholder="Введите e-mail" />
+            </p>
+            <div class="form-btn">
+              <button class="gray">ОТПРАВИТЬ</button>
+              <p>
+                Нажимая на кнопку, вы соглашаетесь с условиями
+                <a href="#">Политики конфиденциальности</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- form section -->
+
+    <!-- contact section -->
+    <section id="contacts">
+      <div class="container">
+        <div class="map">
+          <div class="map-text">
+            <p>
+              Наш новый офис <br />
+              в Киеве
+            </p>
+            <a href="">СМОТРЕТЬ НА КАРТЕ</a>
+          </div>
+        </div>
+        <div class="contact-info">
+          <h2>Свяжитесь с нами <span>другим способом</span></h2>
+          <p class="loc">г. Киев, ул. Предславинская, 39</p>
+          <p class="contact">+38 094 828 80 67</p>
+          <p class="contact">info@pogodin.academy</p>
+          <hr />
+          <i class="bx bxl-instagram icon"></i>
+          <i class="bx bxl-youtube icon"></i>
+          <i class="bx bxl-twitter icon"></i>
+          <i class="bx bxl-facebook icon"></i>
+          <i class="bx bxl-linkedin-square icon"></i>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+
+    <!-- footer section -->
+    <section id="footer">
+      <div class="container">
+        <div class="col-left">
+          <a href=""><img src="img/logo.png" alt="" /></a>
+          <p>Подпишитесь на наши новости и обучающие материалы</p>
+          <form action="">
+            <input type="text" placeholder="Введите имя" />
+            <button class="normal">ОТПРАВИТЬ</button>
+          </form>
+        </div>
+        <div class="col-right">
+          <a href=""> <img src="img/logo.png" alt="" /></a>
+          <ul class="footer-nav">
+            <li class="has-child">
+              <a class="head" href="">Академия</a>
+              <ul class="sub">
+                <li><a href="#">об академии</a></li>
+                <li><a href="#">игорь погодин</a></li>
+                <li><a href="#">институт гештальта</a></li>
+                <li><a href="#">команда</a></li>
+                <li><a href="#">мероприятия</a></li>
+                <li><a href="#">ПАМЯТКИ СТУДЕНТАМ</a></li>
+              </ul>
+            </li>
+            <li class="has-child">
+              <a href="" class="head">программы</a>
+              <ul class="sub">
+                <li><a href="#">ОБУЧЕНИЕ ДЛЯ себя И Профессии</a></li>
+                <li><a href="#">Гештальт-консультант</a></li>
+                <li><a href="#">Вводные курсы</a></li>
+              </ul>
+            </li>
+            <li class="has-child">
+              <a class="head" href="">другое</a>
+              <ul class="sub">
+                <li><a href="#">книги</a></li>
+                <li><a href="#">блог</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+
+    <!-- copyright -->
+    <section id="copy">
+      <div class="content">
+        <div class="copy">
+          <p class="copyright">
+            © 2014-2021 Академия практической психологии Игоря Погодина
+          </p>
+          <div class="pay">
+            <a href="#"><img src="img/svg_visa.png" alt="" /></a>
+            <a href="#"><img src="img/svg_mastercard.png" alt="" /></a>
+          </div>
+          <a class="pol" href="">Политика конфиденциальности</a>
+          <a href="#" class="go-top"><i class="bx bx-chevron-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- Script -->
+
+    <script src="script/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  </body>
+</html>

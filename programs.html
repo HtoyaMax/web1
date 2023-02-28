@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programs</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet/less" href="css/less.less" />
+
+    <link rel="stylesheet" href="style/style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="header-bg">
+      <div class="header-container">
+        <a href="index.html"><img src="img/logo.png" alt="" class="logo" /></a>
+
+        <div id="navbar">
+          <ul>
+            <li>
+              <a id="rotate" class="main"
+                >академия<i class="bx bx-chevron-down down"></i
+              ></a>
+              <ul class="sub-menu">
+                <li><a href="about-academy.html">ОБ АКАДЕМИИ</a></li>
+                <li><a href="about-igor.html">ИГОРЬ ПОГОДИН</a></li>
+                <li><a href="pro-info.html">ИНСТИТУТ ГЕШТАЛЬТА</a></li>
+                <li><a href="team.html">КОМАНДА</a></li>
+                <li><a href="event.html">МЕРОПРИЯТИЯ</a></li>
+                <li><a href="programs.html">ПАМЯТКИ СТУДЕНТАМ</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="rotate" class="main"
+                >программы<i class="bx bx-chevron-down down"></i
+              ></a>
+              <ul class="sub-menu">
+                <li><a href="#">ОБУЧЕНИЕ ЛЮДЕЙ И ПСИХОЛОГОВ</a></li>
+                <li><a href="#">Гештальт-консультант</a></li>
+                <li><a href="#">Вводные курсы</a></li>
+              </ul>
+            </li>
+            <li class="main"><a href="event.html">мероприятия</a></li>
+            <li class="main"><a href="books.html">книги</a></li>
+            <li id="bor" class="main"><a href="blog.html">блог</a></li>
+
+            <div id="mobile">
+              <div class="number">
+                <p>+380 94 828 80 67</p>
+                <p>+7 812 309 54 47</p>
+              </div>
+
+              <div class="email"><p>info@pogodin.academy</p></div>
+
+              <div class="icons">
+                <a href="#"><i class="bx bxl-instagram icon"></i></a>
+                <a href="#"> <i class="bx bxl-youtube icon"></i></a>
+                <a href="#"> <i class="bx bxl-facebook icon"></i></a>
+              </div>
+            </div>
+
+            <div class="language">
+              <div class="language-selected">UA</div>
+              <ul>
+                <li><a href="#" class="ua">ua</a></li>
+                <li><a href="#" class="ru">ru</a></li>
+                <li><a href="#" class="en">en</a></li>
+              </ul>
+            </div>
+
+            <div id="close"><i class="bx bx-x"></i></div>
+          </ul>
+        </div>
+
+        <div class="language">
+          <div class="language-selected">UA</div>
+          <ul>
+            <li><a href="#" class="ua">ua</a></li>
+            <li><a href="#" class="ru">ru</a></li>
+            <li><a href="#" class="en">en</a></li>
+          </ul>
+        </div>
+
+        <div class="number">
+          <p>+380 94 828 80 67</p>
+          <p>+7 812 309 54 47</p>
+        </div>
+
+        <div class="icons">
+          <a href="#"><i class="bx bxl-instagram icon"></i></a>
+          <a href="#"> <i class="bx bxl-youtube icon"></i></a>
+          <a href="#"> <i class="bx bxl-facebook icon"></i></a>
+        </div>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </section>
+    <!-- Header end-->
+
+    <!-- breadcrumbs -->
+    <section id="breadcrumbs">
+      <ul class="breadcrumbs">
+        <li><a class="way" href="index.html">Главная</a></li>
+
+        <li>
+          <a class="activeted" href="#">Программы обучения</a>
+        </li>
+      </ul>
+    </section>
+    <!-- breadcrumbs-->
+
+    <!-- Header info -->
+    <section id="header-info">
+      <div class="header-cours">
+        <div class="name-prog">
+          <h2 class="header">
+            <span>Программы</span> <br />
+            Pogodin Academy
+          </h2>
+        </div>
+        <div class="info-prog">
+          <p class="info">
+            Многие методы популярной психологии работают на поверхностном
+            уровне. Гештальт-терапия ведет вглубь и помогает решать причины
+            проблем. Лучшие гештальт-терапевты Pogodin Academy объединили свой
+            опыт более чем за 20 лет практики и создали исчерпывающие короткие и
+            объемные, обучающие офлайн и онлайн-программы. Для начинающих и
+            профессионалов. Для тех, кто готов рисковать и жить свою жизнь
+          </p>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <!-- Header info -->
+
+    <section id="courses">
+      <div class="container">
+        <div class="header">
+          <h2>Наши <span>основные</span> курсы</h2>
+        </div>
+
+        <div class="body">
+          <div class="content">
+            <div class="item">
+              <div class="thumb">
+                <img src="img/courses/Rectangle 73.png" alt="" />
+              </div>
+              <div class="info">
+                <div class="top">
+                  <p class="for">для новичков</p>
+                  <p class="for">для про</p>
+                </div>
+                <div class="bottom">
+                  <h4 class="articles">
+                    Обучение гештальт-терапии для себя и профессии
+                  </h4>
+                  <div class="time">
+                    <p>
+                      6 месяцев <span>6 групповых сессий для новичков</span>
+                    </p>
+                    <p>4 года <span>II ступень для профессионалов</span></p>
+                  </div>
+                  <div class="buttons">
+                    <button class="normal">УЗНАТЬ БОЛЬШЕ</button>
+                    <p class="price">200$ <span>/сессия</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="img/courses/Rectangle 76.png" alt="" />
+              </div>
+              <div class="info">
+                <div class="top">
+                  <p class="for">для новичков</p>
+                  <p class="for">для про</p>
+                </div>
+                <div class="bottom">
+                  <h4 class="articles">«Гештальт-консультант»</h4>
+                  <div class="time">
+                    <p>9 месяцев <span>III курса </span></p>
+                  </div>
+                  <div class="buttons">
+                    <button class="normal">УЗНАТЬ БОЛЬШЕ</button>
+                    <p class="price">3000€</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="filter-courses">
+      <div class="header">
+        <div class="head">
+          <h2>Тематические и <span>практические</span> курсы</h2>
+        </div>
+
+        <div class="filter-nav">
+          <ul id="filters" class="filters">
+            <li>
+              <input type="checkbox" checked value="cat-120" id="cat-120" />
+              <label for="cat-120">Для каждого</label>
+              <p></p>
+            </li>
+            <li>
+              <input type="checkbox" checked value="cat-25" id="cat-25" />
+              <label for="cat-120">Для профисионалов</label>
+              <p></p>
+            </li>
+            <li>
+              <input type="checkbox" checked value="cat-22" id="cat-22" />
+              <label for="cat-22">Киев</label>
+              <p></p>
+            </li>
+            <li>
+              <input type="checkbox" checked value="cat-21" id="cat-21" />
+              <label for="cat-21">Онлайн</label>
+              <p></p>
+            </li>
+            <li>
+              <input type="checkbox" checked value="cat-20" id="cat-20" />
+              <label for="cat-20">Скоро стартуют</label>
+              <p></p>
+            </li>
+          </ul>
+        </div>
+        <hr />
+
+        <div class="container-filt">
+          <div class="filter-item" data-category="new">
+            <div class="thumb">
+              <img src="img/courses/Rectangle 159.png" alt="" />
+            </div>
+
+            <div class="right">
+              <div class="info">
+                <div class="top">
+                  <p class="for">для новичков</p>
+                  <p class="place cat-21">онлайн</p>
+                </div>
+                <div class="midle">
+                  <h4 class="articles">Менеджмент чувств. Upgrade</h4>
+                  <p>30 дней</p>
+                </div>
+                <div class="bottom">
+                  <button class="normal">УЗНАТЬ БОЛЬШЕ</button>
+                  <p class="price">200$ <span>формат Gold</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-item">
+            <div class="thumb">
+              <img src="img/courses/Rectangle 158.png" alt="" />
+            </div>
+            <div class="right">
+              <div class="info">
+                <div class="top">
+                  <p class="for cat-25">Для профессионалов</p>
+                  <p class="place cat-21">онлайн</p>
+                </div>
+                <div class="midle">
+                  <h4 class="articles">Pro.Life</h4>
+                  <p>6 месяцев <span>III курса</span></p>
+                </div>
+                <div class="bottom">
+                  <button class="normal">УЗНАТЬ БОЛЬШЕ</button>
+                  <p class="price">1240$<span>формат Gold</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-item" data-category="new">
+            <div class="thumb">
+              <img src="img/courses/Rectangle 158 (1).png" alt="" />
+            </div>
+            <div class="right">
+              <div class="info">
+                <div class="top">
+                  <p class="for">для новичков</p>
+                  <p class="place">онлайн</p>
+                </div>
+                <div class="midle">
+                  <h4 class="articles">Психология здоровых отношений</h4>
+                  <p>5 недель</p>
+                </div>
+                <div class="bottom">
+                  <button class="normal">УЗНАТЬ БОЛЬШЕ</button>
+                  <p class="price">284$ <span>формат Standard</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-item" data-category="pro">
+            <div class="thumb">
+              <img src="img/courses/Rectangle 158 (2).png" alt="" />
+            </div>
+            <div class="right">
+              <div class="info">
+                <div class="top">
+                  <p class="for">для новичков</p>
+                  <p class="place">онлайн</p>
+                </div>
+                <div class="midle">
+                  <h4 class="articles">Психология счастливой женщины</h4>
+                  <p>2 месяца</p>
+                </div>
+                <div class="bottom">
+                  <button class="normal">УЗНАТЬ БОЛЬШЕ</button>
+                  <p class="price">139$ <span>формат Standard</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-item" data-category="new">
+            <div class="thumb">
+              <img src="img/courses/Rectangle 158 (3).png" alt="" />
+            </div>
+            <div class="right">
+              <div class="info">
+                <div class="top">
+                  <p class="for">для новичков</p>
+                  <p class="place">онлайн</p>
+                </div>
+                <div class="midle">
+                  <h4 class="articles">Быть мужчиной</h4>
+                  <p>5 месяцев</p>
+                </div>
+                <div class="bottom">
+                  <button class="normal">УЗНАТЬ БОЛЬШЕ</button>
+                  <p class="price">1930$ <span>формат Standard</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- form section -->
+    <section id="form">
+      <div class="container">
+        <div class="info">
+          <h3>Остались вопросы? Напишите нам!</h3>
+          <p>
+            Оставьте заявку, и наши менеджеры с любовью расскажут о нашей
+            программе
+          </p>
+        </div>
+        <div class="form-input">
+          <form action="">
+            <p>
+              <label for="">Имя</label>
+              <input type="text" placeholder="Введите имя" />
+            </p>
+            <p>
+              <label for="">Номер телефона</label>
+              <input type="text" placeholder="Введите номер телефона" />
+            </p>
+            <p>
+              <label for="">E-mail</label>
+              <input type="text" placeholder="Введите e-mail" />
+            </p>
+            <div class="form-btn">
+              <button class="gray">ОТПРАВИТЬ</button>
+              <p>
+                Нажимая на кнопку, вы соглашаетесь с условиями
+                <a href="#">Политики конфиденциальности</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- form section -->
+
+    <!-- contact section -->
+    <section id="contacts">
+      <div class="container">
+        <div class="map">
+          <div class="map-text">
+            <p>
+              Наш новый офис <br />
+              в Киеве
+            </p>
+            <a href="">СМОТРЕТЬ НА КАРТЕ</a>
+          </div>
+        </div>
+        <div class="contact-info">
+          <h2>Свяжитесь с нами <span>другим способом</span></h2>
+          <p class="loc">г. Киев, ул. Предславинская, 39</p>
+          <p class="contact">+38 094 828 80 67</p>
+          <p class="contact">info@pogodin.academy</p>
+          <hr />
+          <i class="bx bxl-instagram icon"></i>
+          <i class="bx bxl-youtube icon"></i>
+          <i class="bx bxl-twitter icon"></i>
+          <i class="bx bxl-facebook icon"></i>
+          <i class="bx bxl-linkedin-square icon"></i>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+
+    <!-- footer section -->
+    <section id="footer">
+      <div class="container">
+        <div class="col-left">
+          <a href=""><img src="img/logo.png" alt="" /></a>
+          <p>Подпишитесь на наши новости и обучающие материалы</p>
+          <form action="">
+            <input type="text" placeholder="Введите имя" />
+            <button class="normal">ОТПРАВИТЬ</button>
+          </form>
+        </div>
+        <div class="col-right">
+          <a href=""> <img src="img/logo.png" alt="" /></a>
+          <ul class="footer-nav">
+            <li class="has-child">
+              <a class="head" href="">Академия</a>
+              <ul class="sub">
+                <li><a href="#">об академии</a></li>
+                <li><a href="#">игорь погодин</a></li>
+                <li><a href="#">институт гештальта</a></li>
+                <li><a href="#">команда</a></li>
+                <li><a href="#">мероприятия</a></li>
+                <li><a href="#">ПАМЯТКИ СТУДЕНТАМ</a></li>
+              </ul>
+            </li>
+            <li class="has-child">
+              <a href="" class="head">программы</a>
+              <ul class="sub">
+                <li><a href="#">ОБУЧЕНИЕ ДЛЯ себя И Профессии</a></li>
+                <li><a href="#">Гештальт-консультант</a></li>
+                <li><a href="#">Вводные курсы</a></li>
+              </ul>
+            </li>
+            <li class="has-child">
+              <a class="head" href="">другое</a>
+              <ul class="sub">
+                <li><a href="#">книги</a></li>
+                <li><a href="#">блог</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+
+    <!-- copyright -->
+    <section id="copy">
+      <div class="content">
+        <div class="copy">
+          <p class="copyright">
+            © 2014-2021 Академия практической психологии Игоря Погодина
+          </p>
+          <div class="pay">
+            <a href="#"><img src="img/svg_visa.png" alt="" /></a>
+            <a href="#"><img src="img/svg_mastercard.png" alt="" /></a>
+          </div>
+          <a class="pol" href="">Политика конфиденциальности</a>
+          <a href="#" class="go-top"><i class="bx bx-chevron-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- Script -->
+
+    <script src="script/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro Info</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet/less" href="css/less.less" />
+
+    <link rel="stylesheet" href="style/style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="header-bg">
+      <div class="header-container">
+        <a href="index.html"><img src="img/logo.png" alt="" class="logo" /></a>
+
+        <div id="navbar">
+          <ul>
+            <li>
+              <a id="rotate" class="main"
+                >академия<i class="bx bx-chevron-down down"></i
+              ></a>
+              <ul class="sub-menu">
+                <li><a href="about-academy.html">ОБ АКАДЕМИИ</a></li>
+                <li><a href="about-igor.html">ИГОРЬ ПОГОДИН</a></li>
+                <li><a href="pro-info.html">ИНСТИТУТ ГЕШТАЛЬТА</a></li>
+                <li><a href="team.html">КОМАНДА</a></li>
+                <li><a href="event.html">МЕРОПРИЯТИЯ</a></li>
+                <li><a href="programs.html">ПАМЯТКИ СТУДЕНТАМ</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="rotate" class="main"
+                >программы<i class="bx bx-chevron-down down"></i
+              ></a>
+              <ul class="sub-menu">
+                <li><a href="#">ОБУЧЕНИЕ ЛЮДЕЙ И ПСИХОЛОГОВ</a></li>
+                <li><a href="#">Гештальт-консультант</a></li>
+                <li><a href="#">Вводные курсы</a></li>
+              </ul>
+            </li>
+            <li class="main"><a href="event.html">мероприятия</a></li>
+            <li class="main"><a href="books.html">книги</a></li>
+            <li id="bor" class="main"><a href="blog.html">блог</a></li>
+
+            <div id="mobile">
+              <div class="number">
+                <p>+380 94 828 80 67</p>
+                <p>+7 812 309 54 47</p>
+              </div>
+
+              <div class="email"><p>info@pogodin.academy</p></div>
+
+              <div class="icons">
+                <a href="#"><i class="bx bxl-instagram icon"></i></a>
+                <a href="#"> <i class="bx bxl-youtube icon"></i></a>
+                <a href="#"> <i class="bx bxl-facebook icon"></i></a>
+              </div>
+            </div>
+
+            <div class="language">
+              <div class="language-selected">UA</div>
+              <ul>
+                <li><a href="#" class="ua">ua</a></li>
+                <li><a href="#" class="ru">ru</a></li>
+                <li><a href="#" class="en">en</a></li>
+              </ul>
+            </div>
+
+            <div id="close"><i class="bx bx-x"></i></div>
+          </ul>
+        </div>
+
+        <div class="language">
+          <div class="language-selected">UA</div>
+          <ul>
+            <li><a href="#" class="ua">ua</a></li>
+            <li><a href="#" class="ru">ru</a></li>
+            <li><a href="#" class="en">en</a></li>
+          </ul>
+        </div>
+
+        <div class="number">
+          <p>+380 94 828 80 67</p>
+          <p>+7 812 309 54 47</p>
+        </div>
+
+        <div class="icons">
+          <a href="#"><i class="bx bxl-instagram icon"></i></a>
+          <a href="#"> <i class="bx bxl-youtube icon"></i></a>
+          <a href="#"> <i class="bx bxl-facebook icon"></i></a>
+        </div>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </section>
+    <!-- Header end-->
+
+    <!-- breadcrumbs -->
+    <section id="breadcrumbs">
+      <ul class="breadcrumbs">
+        <li><a class="way" href="index.html">Главная</a></li>
+
+        <li>
+          <a class="activeted" href="#">Информация для профессионалов</a>
+        </li>
+      </ul>
+    </section>
+    <!-- breadcrumbs-->
+
+    <!-- Header info -->
+    <section id="header-info">
+      <div class="header-cours">
+        <div class="name-prog">
+          <h2 class="min-head">
+            Pogodin Academy — <span>гештальт-институт,</span> который 20 лет
+            успешно работает в 4 странах
+          </h2>
+        </div>
+        <div class="info-prog">
+          <p class="info">
+            У нас обучают 25 квалифицированных преподавателей. Оказывают
+            психологическую помощь путем индивидуальной и групповой психотерапии
+            более 50 хорошо подготовленных и опытных психологов и
+            психотерапевтов
+          </p>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <!-- Header info -->
+
+    <section id="prof">
+      <div class="container">
+        <div class="header">
+          <h2 class="min-head">
+            Обучаем гештальт-терапии по стандартам
+            <span>Европейской Ассоциации Гештальт-терапии (EAGT)</span>
+          </h2>
+        </div>
+        <div class="content">
+          <div class="item">
+            <div class="left">
+              <p class="num">01</p>
+              <h4 class="articles">Теоретическая подготовка</h4>
+            </div>
+            <div class="right">
+              <div class="mid">
+                <div class="block">
+                  <h3 class="shadow">21</h3>
+                  <p class="flexcol">тематическая сессия</p>
+                </div>
+                <div class="block">
+                  <h3 class="shadow">1-2</h3>
+                  <p class="flexcol">специализации</p>
+                </div>
+                <div class="block">
+                  <h3 class="shadow">60</h3>
+                  <p class="flexcol">часов лекций</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <p class="num">02</p>
+              <h4 class="articles">Теоретическая подготовка</h4>
+            </div>
+            <div class="right">
+              <div class="mid">
+                <div class="block">
+                  <h3 class="shadow">21</h3>
+                  <p class="flexcol">тематическая сессия</p>
+                </div>
+                <div class="block">
+                  <h3 class="shadow">21</h3>
+                  <p class="flexcol">тематическая сессия</p>
+                </div>
+                <div class="block">
+                  <h3 class="shadow">21</h3>
+                  <p class="flexcol">тематическая сессия</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <p class="info">
+                  Часы индивидуальной терапии на интенсивах, часы терапии под
+                  супервизией в супервизорских группах на 3-м году обучения и
+                  далее
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <p class="num">03</p>
+              <h4 class="articles">Теоретическая подготовка</h4>
+            </div>
+            <div class="right">
+              <div class="mid">
+                <div class="block">
+                  <h3 class="shadow">255</h3>
+                  <p class="flexcol">часов</p>
+                </div>
+                <div class="block">
+                  <h3 class="shadow">210</h3>
+                  <p class="flexcol">часов групповой супервизии</p>
+                </div>
+                <div class="block">
+                  <h3 class="shadow">30</h3>
+                  <p class="flexcol">
+                    предсертификационных супервизий как поэтапная подготовка к
+                    экзамену
+                  </p>
+                </div>
+                <div class="block">
+                  <h3 class="shadow">15</h3>
+                  <p class="flexcol">
+                    Индивидуальных супервизий в малых группах (тройках)
+                  </p>
+                </div>
+              </div>
+              <div class="bottom">
+                <p class="info">
+                  Супервизия осуществляется преподавателями и участниками
+                  программ III ступени
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <p class="num">04</p>
+              <h4 class="articles">Теоретическая подготовка</h4>
+            </div>
+            <div class="right">
+              <div class="mid">
+                <div class="block">
+                  <h3 class="shadow">300</h3>
+                  <p class="flexcol">часов</p>
+                </div>
+                <div class="block">
+                  <h3 class="shadow">200</h3>
+                  <p class="flexcol">часов под супервизией</p>
+                </div>
+                <div class="block">
+                  <h3 class="shadow">100</h3>
+                  <p class="flexcol">
+                    Описание 3-х случаев продолжительной работы с клиентами
+                  </p>
+                </div>
+                <div class="block">
+                  <h3 class="shadow">ТРОЙКИ</h3>
+                  <p class="flexcol">РАБОТА В МАЛЫХ ГРУППАХ</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <p class="num">05</p>
+              <h4 class="articles">Наличие диплома о высшем образовании</h4>
+            </div>
+            <div class="right">
+              <div class="text">
+                <p class="info">
+                  В области психологии или смежных специальностей (медицина,
+                  социальная работа)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <p class="num">06</p>
+              <h4 class="articles">
+                Демонстрация работы на сертификационной сессии
+              </h4>
+            </div>
+            <div class="right">
+              <div class="text">
+                <p class="info">С приглашением независимого тренера</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <p class="num">07</p>
+              <h4 class="articles">Участие в четырех интенсивах</h4>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <p class="num">08</p>
+              <h4 class="articles">Участие в четырех конференциях Академии</h4>
+            </div>
+          </div>
+          <div class="item">
+            <div class="left">
+              <p class="num">09</p>
+              <h4 class="articles">Рекомендация руководителя программы</h4>
+            </div>
+            <div class="right">
+              <div class="text">
+                <p class="info">
+                  При успешном завершении программы и выполнении условий
+                  сертификации выдается сертификат Института Гештальта/Pogodin
+                  Academy, соответствующий стандартам ЕАGТ
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="left">
+              <p class="num">10</p>
+              <h4 class="articles">
+                Экзамен по теории и методологии гештальт-подхода
+              </h4>
+            </div>
+          </div>
+          <div class="item">
+            <div class="left">
+              <p class="num">11</p>
+              <h4 class="articles">Оконченная I ступень</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-2">
+        <div class="head">
+          <h2 class="mini-head">Для ознакомления</h2>
+        </div>
+        <div class="container">
+          <div class="item">
+            <div class="info">
+              <h4 class="articles">Смотреть структуру программы</h4>
+              <div class="bottom">
+                <p>pdf · 800кб</p>
+                <a href=""><img src="img/icon/download.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="info">
+              <h4 class="articles">Смотреть памятку студенту</h4>
+              <div class="bottom">
+                <p>pdf · 700кб</p>
+                <a href=""><img src="img/icon/download.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="info">
+              <h4 class="articles">Смотреть памятку студенту</h4>
+              <div class="bottom">
+                <p>pdf · 700кб</p>
+                <a href=""><img src="img/icon/download.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- form section -->
+    <section id="form">
+      <div class="container">
+        <div class="info">
+          <h3>Остались вопросы? Напишите нам!</h3>
+          <p>
+            Оставьте заявку, и наши менеджеры с любовью расскажут о нашей
+            программе
+          </p>
+        </div>
+        <div class="form-input">
+          <form action="">
+            <p>
+              <label for="">Имя</label>
+              <input type="text" placeholder="Введите имя" />
+            </p>
+            <p>
+              <label for="">Номер телефона</label>
+              <input type="text" placeholder="Введите номер телефона" />
+            </p>
+            <p>
+              <label for="">E-mail</label>
+              <input type="text" placeholder="Введите e-mail" />
+            </p>
+            <div class="form-btn">
+              <button class="gray">ОТПРАВИТЬ</button>
+              <p>
+                Нажимая на кнопку, вы соглашаетесь с условиями
+                <a href="#">Политики конфиденциальности</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- form section -->
+
+    <!-- contact section -->
+    <section id="contacts">
+      <div class="container">
+        <div class="map">
+          <div class="map-text">
+            <p>
+              Наш новый офис <br />
+              в Киеве
+            </p>
+            <a href="">СМОТРЕТЬ НА КАРТЕ</a>
+          </div>
+        </div>
+        <div class="contact-info">
+          <h2>Свяжитесь с нами <span>другим способом</span></h2>
+          <p class="loc">г. Киев, ул. Предславинская, 39</p>
+          <p class="contact">+38 094 828 80 67</p>
+          <p class="contact">info@pogodin.academy</p>
+          <hr />
+          <i class="bx bxl-instagram icon"></i>
+          <i class="bx bxl-youtube icon"></i>
+          <i class="bx bxl-twitter icon"></i>
+          <i class="bx bxl-facebook icon"></i>
+          <i class="bx bxl-linkedin-square icon"></i>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+
+    <!-- footer section -->
+    <section id="footer">
+      <div class="container">
+        <div class="col-left">
+          <a href=""><img src="img/logo.png" alt="" /></a>
+          <p>Подпишитесь на наши новости и обучающие материалы</p>
+          <form action="">
+            <input type="text" placeholder="Введите имя" />
+            <button class="normal">ОТПРАВИТЬ</button>
+          </form>
+        </div>
+        <div class="col-right">
+          <a href=""> <img src="img/logo.png" alt="" /></a>
+          <ul class="footer-nav">
+            <li class="has-child">
+              <a class="head" href="">Академия</a>
+              <ul class="sub">
+                <li><a href="#">об академии</a></li>
+                <li><a href="#">игорь погодин</a></li>
+                <li><a href="#">институт гештальта</a></li>
+                <li><a href="#">команда</a></li>
+                <li><a href="#">мероприятия</a></li>
+                <li><a href="#">ПАМЯТКИ СТУДЕНТАМ</a></li>
+              </ul>
+            </li>
+            <li class="has-child">
+              <a href="" class="head">программы</a>
+              <ul class="sub">
+                <li><a href="#">ОБУЧЕНИЕ ДЛЯ себя И Профессии</a></li>
+                <li><a href="#">Гештальт-консультант</a></li>
+                <li><a href="#">Вводные курсы</a></li>
+              </ul>
+            </li>
+            <li class="has-child">
+              <a class="head" href="">другое</a>
+              <ul class="sub">
+                <li><a href="#">книги</a></li>
+                <li><a href="#">блог</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+
+    <!-- copyright -->
+    <section id="copy">
+      <div class="content">
+        <div class="copy">
+          <p class="copyright">
+            © 2014-2021 Академия практической психологии Игоря Погодина
+          </p>
+          <div class="pay">
+            <a href="#"><img src="img/svg_visa.png" alt="" /></a>
+            <a href="#"><img src="img/svg_mastercard.png" alt="" /></a>
+          </div>
+          <a class="pol" href="">Политика конфиденциальности</a>
+          <a href="#" class="go-top"><i class="bx bx-chevron-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- Script -->
+
+    <script src="script/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  </body>
+</html>
